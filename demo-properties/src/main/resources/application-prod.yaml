@@ -1,0 +1,8 @@
+application:
+  name: prod env @artifactId@
+  version: prod env @version@
+developer:
+  name: prod env ivan
+  website: prod env https://www.ivan.com
+  qq: prod env 123456
+  phone: prod env 12345678901

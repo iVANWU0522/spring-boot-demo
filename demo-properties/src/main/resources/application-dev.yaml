@@ -1,0 +1,8 @@
+application:
+  name: dev env @artifactId@
+  version: dev env @version@
+developer:
+  name: dev env ivan
+  website: dev env https://www.ivan.com
+  qq: dev env 123456
+  phone: dev env 12345678901
