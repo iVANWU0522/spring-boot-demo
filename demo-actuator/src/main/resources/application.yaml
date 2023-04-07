@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+# if need to view the endpoint, need to config the username and password
+spring:
+  security:
+    user:
+      name: ivan
+      password: 123456
+
+management:
+  server:
+    port: 8090
+  endpoint:
+    health:
+      show-details: always
+  # default ["info", "health"], "*" means all
+  endpoints:
+    web:
+      exposure:
+        include: "*"

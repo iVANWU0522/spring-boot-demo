@@ -10,6 +10,7 @@
     <modules>
         <module>demo-helloworld</module>
         <module>demo-properties</module>
+        <module>demo-actuator</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -24,8 +25,8 @@
         <spring.boot.version>3.0.5</spring.boot.version>
         <mysql.version>8.0.21</mysql.version>
         <hutool.version>5.8.11</hutool.version>
-        <guava.version>29.0-jre</guava.version>
-        <user.agent.version>1.20</user.agent.version>
+        <guava.version>31.1-jre</guava.version>
+        <user.agent.version>1.21</user.agent.version>
     </properties>
 
     <dependencyManagement>
