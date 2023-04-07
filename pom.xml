@@ -13,6 +13,7 @@
         <module>demo-actuator</module>
         <module>demo-admin</module>
         <module>demo-logback</module>
+        <module>demo-log-aop</module>
     </modules>
     <packaging>pom</packaging>
 
