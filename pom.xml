@@ -11,6 +11,7 @@
         <module>demo-helloworld</module>
         <module>demo-properties</module>
         <module>demo-actuator</module>
+        <module>demo-admin</module>
     </modules>
     <packaging>pom</packaging>
 

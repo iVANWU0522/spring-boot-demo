@@ -1,0 +1,31 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+spring:
+  application:
+    # Spring boot admin display client name, if not set, use random id
+    name: spring-boot-demo-admin-client
+  boot:
+    admin:
+      client:
+        # Spring boot admin server url
+        url: http://localhost:8000
+        # Spring boot admin client instance id
+        instance:
+          metadata:
+            user.name: ${spring.security.user.name}
+            user.home: ${spring.security.user.password}
+  security:
+    user:
+      name: ivan
+      password: 123456
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
