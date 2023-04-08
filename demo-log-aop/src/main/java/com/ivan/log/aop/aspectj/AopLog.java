@@ -45,6 +45,7 @@ public class AopLog {
         String header = request.getHeader("User-Agent");
         UserAgent userAgent = UserAgent.parseUserAgentString(header);
 
+        // Use lombok builder pattern to build log
         final Log l = Log.builder()
                 .threadId(Long.toString(Thread.currentThread().threadId()))
                 .threadName(Thread.currentThread().getName())
@@ -107,7 +108,7 @@ public class AopLog {
             ip = ip.split(",")[0];
         }
         if (localhost.equals(ip)) {
-            // 获取本机真正的ip地址
+            // Get local IP address
             try {
                 ip = InetAddress.getLocalHost().getHostAddress();
             } catch (UnknownHostException e) {
