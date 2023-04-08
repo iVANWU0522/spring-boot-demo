@@ -1,0 +1,2 @@
+# What
+> This demo demonstrates how to perform unified exception handling in Spring Boot, including two ways of handling: the first way handles exceptions for common API interfaces and encapsulates the return format in a unified manner, while the second way handles exceptions for template page requests and unifies error page processing.
