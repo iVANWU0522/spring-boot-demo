@@ -15,6 +15,7 @@
         <module>demo-logback</module>
         <module>demo-log-aop</module>
         <module>demo-exception-handler</module>
+        <module>demo-template-freemarker</module>
     </modules>
     <packaging>pom</packaging>
 
