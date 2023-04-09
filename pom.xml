@@ -16,6 +16,7 @@
         <module>demo-log-aop</module>
         <module>demo-exception-handler</module>
         <module>demo-template-freemarker</module>
+        <module>demo-template-thymeleaf</module>
     </modules>
     <packaging>pom</packaging>
 
