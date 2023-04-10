@@ -1,7 +1,7 @@
-package com.ivan.template.freemarker.controller;
+package com.ivan.template.beetl.controller;
 
 import cn.hutool.core.util.ObjectUtil;
-import com.ivan.template.freemarker.model.User;
+import com.ivan.template.beetl.model.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +21,7 @@ public class IndexController {
         if (ObjectUtil.isNull(user)) {
             modelAndView.setViewName("redirect:/user/login");
         } else {
-            modelAndView.setViewName("page/index");
+            modelAndView.setViewName("page/index.btl");
             modelAndView.addObject(user);
         }
 
