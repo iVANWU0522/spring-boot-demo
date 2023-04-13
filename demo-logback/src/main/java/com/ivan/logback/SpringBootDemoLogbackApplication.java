@@ -22,7 +22,7 @@ public class SpringBootDemoLogbackApplication {
             int i = 0;
             int j = 1 / i;
         } catch (Exception e) {
-            log.error("【SpringBootDemoLogbackApplication】boot with error：", e);
+            log.error("[SpringBootDemoLogbackApplication]boot with error：", e);
         }
     }
 }
