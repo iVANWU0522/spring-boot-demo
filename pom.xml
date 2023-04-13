@@ -20,6 +20,7 @@
         <module>demo-template-beetl</module>
         <module>demo-template-enjoy</module>
         <module>demo-orm-jdbctemplate</module>
+        <module>demo-orm-jpa</module>
     </modules>
     <packaging>pom</packaging>
 
