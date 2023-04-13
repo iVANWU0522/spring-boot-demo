@@ -4,6 +4,7 @@ server:
     context-path: /demo
 spring:
   datasource:
+    # the url is depends on your mysql server, here is an example of docker which is located in the docker/mysql directory
     url: jdbc:mysql://127.0.0.1:3308/spring-boot-demo
     username: admin
     password: admin
